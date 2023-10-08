@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #2d0653
+}
+
+
+.tc{
+    width: 50%;
+    background-color: aquamarine;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.tct{
+    width: 50%;
+    background-color: rgb(255, 0, 0);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}

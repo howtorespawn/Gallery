@@ -1,0 +1,139 @@
+.main-quotes-bg{
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmlnaHQlMjBza3l8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+    background-size: cover;
+    background-position: bottom;
+    background-color: aqua;
+    z-index: 0;
+    /* download */
+}
+.main-quote-main-color-bg{
+    background-color: rgba(140, 0, 255, 0.185);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.quotes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.main-quote-container{
+    background-color: rgb(255, 166, 0);
+    display: flex;
+    box-shadow: 0px 0px 10px 3px black;
+}
+
+.quote-top-image-one{
+    background-color: aliceblue;
+    background-image: url(../images/duck.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+.quote-top-image-two{
+    background-color: aliceblue;
+    background-image: url(../images/duck-two.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+.quote-top-image-three{
+    background-color: aliceblue;
+    background-image: url(../images/duckgm.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+.quote-icon{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 14%;
+}
+.quote-logo{
+    width: auto;
+    height: 15vh;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px 3px black;
+}
+
+.display-mid{
+    display: flex;
+    justify-content: center;
+
+}
+.quote-text-area{
+    height: auto;
+    position: relative;
+    bottom: 5vh;
+}
+.quote-text-area{
+    padding: 1vh;
+}
+
+@media (orientation: landscape) {
+    .main-quotes-bg{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .quotes{
+        display: flex;
+        flex-direction: row;
+    }
+    .main-quote-container{
+        width: 25%;
+        height: auto;
+    }
+    .quote-total-area{
+        width: 100%;
+        height: auto;
+    }
+    .quote-top-image{
+        width: 100%;
+        height: 30vh;
+    }
+    .quote-text-area{
+        height: 25;
+    }
+}
+
+@media (orientation: portrait) {
+    .main-quotes-bg{
+        height: 100vh;
+    }
+
+    .quotes{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-quote-container{
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main-quotes-bg{
+        height: auto;
+    }
+    .quote-logo{
+        height:12vh;
+    }
+    .quote-icon{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 24%;
+    }
+}
+@media (max-width:1024px) {
+    
+}

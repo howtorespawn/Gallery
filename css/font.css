@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.manrope{
+    font-family: manrope;
+}
+.white{
+    color: rgb(255, 255, 255);
+}
+.center{
+    text-align: center;
+}
+.main-title{
+    font-size: 5rem;
+    font-weight: 600;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+h4{
+    font-size: 1.4rem;
+}
+h5{
+    font-size: 1rem;
+}
+.tm{
+    margin-top: 20px;
+    font-weight: 100;
+}
+.top-margin-twice{
+    margin-top: 30px;
+}
+.bm{
+    margin-bottom: 30px;
+}
+.ul{
+    text-decoration: underline;
+}
+.ml{
+    margin: 20px;
+}
+
+@media (max-width:1024px) {
+    html{
+        font-size: 10px;
+    }
+}
